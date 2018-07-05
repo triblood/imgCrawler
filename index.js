@@ -47,51 +47,7 @@ request(pageToVisit, function(error, response, body) {
             // Crawling failed...
             console.log(err)
         });
-        //     url : 'http:' + imgSrc,
-        //     //make the returned body a Buffer
-        //     encoding : null
-        // }, function(error, response, body) {
-        
-        //     //will be true, body is Buffer( http://nodejs.org/api/buffer.html )
-        //     console.log(body instanceof Buffer);
-        
-        //     //do what you want with body
-        //     //like writing the buffer to a file
-            // fs.writeFile('img/test'+x+'.jpg', body, {
-            //     encoding : null
-            // }, function(err) {
-        
-            //     if (err)
-            //         throw err;
-            //     console.log('It\'s saved!');
-            // });
-        
-        // });
-        
-
-        
+ 
      });
    }
 });
-
-// request({
-//     url : 'http://i.imgur.com/qMaDXInb.jpg',
-//     //make the returned body a Buffer
-//     encoding : null
-// }, function(error, response, body) {
-
-//     //will be true, body is Buffer( http://nodejs.org/api/buffer.html )
-//     console.log(body instanceof Buffer);
-
-//     //do what you want with body
-//     //like writing the buffer to a file
-//     fs.writeFile('test.png', body, {
-//         encoding : null
-//     }, function(err) {
-
-//         if (err)
-//             throw err;
-//         console.log('It\'s saved!');
-//     });
-
-// });
